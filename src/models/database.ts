@@ -1,9 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
 import passportLocalMongoose from 'passport-local-mongoose';
 
-export enum StatusDiary { Pending, Acepted, Done }
-
-
 // Interfaces
 export interface IUser {
     name: string;
