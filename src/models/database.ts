@@ -30,6 +30,3 @@ userSchema.plugin(passportLocalMongoose);
 
 // Database Models
 export const model_user = mongoose.model('user', userSchema);
-export const model_chat_saved = mongoose.model('chat_saved', chatSavedSchema);
-export const model_scheduled = mongoose.model('scheduled', scheduledSchema);
-export const model_specialist = mongoose.model('specialist', specialistSchema);

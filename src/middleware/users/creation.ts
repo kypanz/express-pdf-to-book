@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { model_specialist, model_user } from "../../models/database";
+import { model_user } from "../../models/database";
 import passport from "passport";
 import { sendEmail } from "../../utils/emails";
 import dotenv from 'dotenv';
