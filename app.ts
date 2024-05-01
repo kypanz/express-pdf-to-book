@@ -29,7 +29,7 @@ const port: number = 3000;
 
 
 // Https server options
-console.log('PROTOCOL => ', HTTPS);
+console.log('HTTPS is enabled ? => ', HTTPS);
 let server: http.Server | https.Server;
 if (HTTPS == 'true') {
   const optionsServer = {
