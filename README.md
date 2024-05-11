@@ -1,11 +1,6 @@
-# cst-template-backend-express
+# express-pdf-to-book
 
-This is a backend service that includes the next things
-
-- users endpoints ( basic auth )
-- websockets ( socket.io )
-- emails ( nodemailer )
-
+Simple backend to generate audios based on pdf books
 
 ## Configure
 
